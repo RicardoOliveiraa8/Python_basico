@@ -19,7 +19,7 @@ while cont <= int(clientes) :
     documento = input('Digite o documento do cliente:')
     Lista_clientes.append(documento)
     cont += 1
-    print('Cliente adicionado com sucesso')
+    print('Cadastro realizado')
 else:
     print('Os Clientes foram adicionados com sucesso')
     
