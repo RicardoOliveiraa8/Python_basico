@@ -1,8 +1,8 @@
-lista = [1,2,3,4,5,6,7,8,9,10] # lista vazia
+lista = [1,2,3,4,5,6,7,8,9,10] # lista com numeros
 
 def maior(var): #função que busca o maior valor da lista 
-    maior = var [0] #começa a buscar o maior número no primeiro item da lista
-    for numero in lista: # percorre os números na lista
+    maior = var [0] # percorre a lista pelo primeiro item 
+    for numero in lista: 
      if numero > maior: 
          maior = numero
     print('O maior número da lista é: ', maior)
